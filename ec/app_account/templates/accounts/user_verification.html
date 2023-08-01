@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Verification Form</title>
+</head>
+<body>
+    <h1>User Verification</h1>
+    <p>Please enter the verification code you received via SMS:</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <label for="code">Verification Code:</label>
+        <input type="text" id="code" name="code" required>
+        <button type="submit">Verify</button>
+    </form>
+</body>
+</html>
