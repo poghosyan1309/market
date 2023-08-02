@@ -34,11 +34,11 @@ INSTALLED_APPS = [
     'drf_yasg',
     'django_celery_beat',
     'django',
-    'logining',
     'rest_framework_simplejwt',
     'app_account',
     'app_store',
     'app_product',
+    'app_order',
     'app_ticket',
 
     'app_bookmark',
